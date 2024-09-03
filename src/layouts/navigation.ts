@@ -20,30 +20,20 @@ export const getNavigation = (section) => {
                   href: "/dev/send-tokens/interchain-tokens/intro/",
                 },
                 {
-                  title: "Quick Start",
-                  href: "/dev/send-tokens/interchain-tokens/quick-start/",
-                  children: [
-                    {
-                      title: "No Code",
-                      href: "/dev/send-tokens/interchain-tokens/quick-start/no-code/"
-                    },
-                    {
-                      title: "Programmatic",
-                      href: "/dev/send-tokens/interchain-tokens/quick-start/programmatic/"
-                    }
-                  ]
+                  title: "Create Token",
+                  href: "/dev/send-tokens/interchain-tokens/create-token/",
                 },
                 {
-                  title: "Token Manager",
-                  href: "/dev/send-tokens/interchain-tokens/token-manager/",
+                  title: "Upgrade Token",
+                  href: "/dev/send-tokens/interchain-tokens/upgrade-tokens/",
                 },
                 {
                   title: "Interchain Token Executable",
                   href: "/dev/send-tokens/interchain-tokens/interchain-token-executable/",
                 },
                 {
-                  title: "Flow Limit",
-                  href: "/dev/send-tokens/interchain-tokens/flow-limit/",
+                  title: "Rate Limit",
+                  href: "/dev/send-tokens/interchain-tokens/rate-limit/",
                 },
                 {
                   title: "Developer Guides",
