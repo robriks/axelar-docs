@@ -43,7 +43,7 @@ When a verifier set is rotated for a given chain, the existing signers verify th
 axelard tx wasm execute $CHAIN_MULTISIG_PROVER_ADDRESS \
     '"update_verifier_set"' \
     --from wallet
-    --gas auto --gas-adjustment 1.5 --gas-prices 0.007uverifiers \
+    --gas auto --gas-adjustment 1.5 --gas-prices 0.007uaxl \
     --chain-id axelar-testnet-lisbon-3 \
     --node $RPC
 ```
@@ -57,7 +57,7 @@ axelard tx wasm execute $CHAIN_MULTISIG_PROVER_ADDRESS \
     '"confirm_verifier_set"' \
     --keyring-backend test
     --from wallet
-    --gas auto --gas-adjustment 1.5 --gas-prices 0.007uverifiers \
+    --gas auto --gas-adjustment 1.5 --gas-prices 0.007uaxl \
     --chain-id axelar-testnet-lisbon-3 \
     --node $RPC
 ```
